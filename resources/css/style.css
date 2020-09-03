@@ -1,35 +1,43 @@
 h1, 
 h2, 
-h3, 
+h3,
+a, 
 p {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
-h1 {
-  background-image: url("../images/pattern.jpeg");
-  text-align: center;
-  font-size: 100px;
-  color: khaki;
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+nav li {
+  margin: 0 auto;
+  padding-right: 1rem;
+  box-sizing: border-box;
 }
 
-.item h2 {
-  font-size: 32px;
-  color: white;
-}
-
-.price {
-  font-weight: bold;
+nav a {
+  line-height: 1.5rem;
+  font-size: 1rem;
   color: blue;
-}
+  font-weight: bold;
+  }
 
-#brush {
-  background-color: mediumspringgreen;
-}
+.navbar {
+  position: absolute;
+  top: 0rem; 
+  width: 99%;
+  }
 
-#frame {
-  background-color: lightcoral;
-}
-
-#paint {
-  background-color: skyblue;
-}
+.content {
+  background-image: url("../images/Monaco_map_with_text.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 680px;
+  width: 100%;
+  }
